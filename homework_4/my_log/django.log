@@ -1,0 +1,164 @@
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2167
+Not Found: /hw4
+"GET /hw4 HTTP/1.1" 404 2194
+Internal Server Error: /hw4/user/add/
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/workspaces/HW4_Django_19.03.2024/homework_4/myapp/views.py", line 19, in user_form
+    return render(request, 'myapp4/user_form.html', {'form': form})
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp4/user_form.html
+"GET /hw4/user/add/ HTTP/1.1" 500 88862
+Watching for file changes with StatReloader
+"GET /hw4/user/add/ HTTP/1.1" 200 585
+/workspaces/HW4_Django_19.03.2024/homework_4/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/workspaces/HW4_Django_19.03.2024/homework_4/myapp/forms.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2167
+"GET /hw4/product/add HTTP/1.1" 301 0
+"GET /hw4/product/add/ HTTP/1.1" 200 585
+"GET /hw4/user/add/ HTTP/1.1" 200 585
+/workspaces/HW4_Django_19.03.2024/homework_4/myapp/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/workspaces/HW4_Django_19.03.2024/homework_4/myapp/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /hw4/user/add/ HTTP/1.1" 200 585
+Internal Server Error: /hw4/product/add/
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/workspaces/HW4_Django_19.03.2024/homework_4/myapp/views.py", line 32, in product_form
+    return render(request, 'myapp/product_form.html', {'form': form})
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/product_form.html
+"GET /hw4/product/add/ HTTP/1.1" 500 89040
+"GET /hw4/product/add/ HTTP/1.1" 200 755
+"GET /hw4/product/add/ HTTP/1.1" 200 973
+"POST /hw4/product/add/ HTTP/1.1" 200 1088
+"POST /hw4/product/add/ HTTP/1.1" 200 1088
+/workspaces/HW4_Django_19.03.2024/homework_4/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/workspaces/HW4_Django_19.03.2024/homework_4/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/workspaces/HW4_Django_19.03.2024/homework_4/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/workspaces/HW4_Django_19.03.2024/homework_4/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/workspaces/HW4_Django_19.03.2024/homework_4/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/workspaces/HW4_Django_19.03.2024/homework_4/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/workspaces/HW4_Django_19.03.2024/homework_4/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2167
+"GET /hw4/product/add/ HTTP/1.1" 200 973
+"POST /hw4/product/add/ HTTP/1.1" 200 1115
+"POST /hw4/product/add/ HTTP/1.1" 200 1115
+/workspaces/HW4_Django_19.03.2024/homework_4/myapp/forms.py changed, reloading.
+Watching for file changes with StatReloader
+/workspaces/HW4_Django_19.03.2024/homework_4/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/workspaces/HW4_Django_19.03.2024/homework_4/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /hw4/product/add/ HTTP/1.1" 200 1098
+"GET /hw4/product/add/ HTTP/1.1" 200 956
+"POST /hw4/product/add/ HTTP/1.1" 200 1085
+/workspaces/HW4_Django_19.03.2024/homework_4/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /hw4/product/add/ HTTP/1.1" 200 1085
+/workspaces/HW4_Django_19.03.2024/homework_4/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/workspaces/HW4_Django_19.03.2024/homework_4/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/workspaces/HW4_Django_19.03.2024/homework_4/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/workspaces/HW4_Django_19.03.2024/homework_4/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/workspaces/HW4_Django_19.03.2024/homework_4/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/workspaces/HW4_Django_19.03.2024/homework_4/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/workspaces/HW4_Django_19.03.2024/homework_4/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/workspaces/HW4_Django_19.03.2024/homework_4/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/workspaces/HW4_Django_19.03.2024/homework_4/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/workspaces/HW4_Django_19.03.2024/homework_4/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/workspaces/HW4_Django_19.03.2024/homework_4/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/workspaces/HW4_Django_19.03.2024/homework_4/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/workspaces/HW4_Django_19.03.2024/homework_4/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/workspaces/HW4_Django_19.03.2024/homework_4/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/workspaces/HW4_Django_19.03.2024/homework_4/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/workspaces/HW4_Django_19.03.2024/homework_4/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/workspaces/HW4_Django_19.03.2024/homework_4/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/workspaces/HW4_Django_19.03.2024/homework_4/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/workspaces/HW4_Django_19.03.2024/homework_4/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"POST /hw4/product/add/ HTTP/1.1" 200 1102
+"POST /hw4/product/add/ HTTP/1.1" 200 1102
+Not Found: /hw4/product
+"GET /hw4/product HTTP/1.1" 404 2476
+"GET /hw4/product/add/ HTTP/1.1" 200 973
+/workspaces/HW4_Django_19.03.2024/homework_4/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+/workspaces/HW4_Django_19.03.2024/homework_4/myapp/models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /hw4/product/add/ HTTP/1.1" 200 973
+"POST /hw4/product/add/ HTTP/1.1" 200 1082
+"POST /hw4/product/add/ HTTP/1.1" 200 1116
+Получили name='1', description='1', price=1.0, image=<InMemoryUploadedFile: 32905.png (image/png)>.
+Internal Server Error: /hw4/product/add/
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/workspaces/HW4_Django_19.03.2024/homework_4/myapp/views.py", line 36, in product_form
+    product = Product(name=name, email=description, age=price, image=image.name)
+  File "/usr/local/python/3.10.13/lib/python3.10/site-packages/django/db/models/base.py", line 567, in __init__
+    raise TypeError(
+TypeError: Product() got unexpected keyword arguments: 'email', 'age'
+"POST /hw4/product/add/ HTTP/1.1" 500 84483
+/workspaces/HW4_Django_19.03.2024/homework_4/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+/workspaces/HW4_Django_19.03.2024/homework_4/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Получили name='1', description='1', price=1.0, image=<InMemoryUploadedFile: 32905.png (image/png)>.
+"POST /hw4/product/add/ HTTP/1.1" 200 1037
+Получили name='1', description='1', price=1.0, image=<InMemoryUploadedFile: 32905.png (image/png)>.
+"POST /hw4/product/add/ HTTP/1.1" 200 1037
